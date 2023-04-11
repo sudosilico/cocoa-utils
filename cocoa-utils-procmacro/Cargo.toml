@@ -1,0 +1,20 @@
+[package]
+name = "cocoa-utils-procmacro"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+keywords = ["cocoa", "procmacro"]
+description = "Procedural macro used by the cocoa-utils crate."
+repository = "https://github.com/sudosilico/cocoa-utils/"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+cocoa = "0.24.0"
+objc = "0.2.7"
+libc = "0.2.136"
+lazy_static = "1.4.0"
+proc-macro2 = "1.0.47"
+syn = { version = "1.0.103", features = ["full"] }
+quote = "1.0.21"

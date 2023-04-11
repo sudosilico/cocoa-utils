@@ -1,0 +1,17 @@
+[package]
+name = "cocoa-utils"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+keywords = ["cocoa"]
+repository = "https://github.com/sudosilico/cocoa-utils/"
+
+[dependencies]
+cocoa = "0.24.0"
+objc = "0.2.7"
+libc = "0.2.136"
+lazy_static = "1.4.0"
+cocoa-utils-procmacro = { path = "../cocoa-utils-procmacro" }
+core-foundation = "0.9.3"
+core-graphics = "0.22.3"
+crossbeam = "0.8.1"
