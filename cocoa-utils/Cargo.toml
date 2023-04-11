@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 keywords = ["cocoa"]
+description = "Rust utilities and wrappers for Cocoa"
 repository = "https://github.com/sudosilico/cocoa-utils/"
 
 [dependencies]
