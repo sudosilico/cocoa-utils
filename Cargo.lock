@@ -62,7 +62,7 @@ name = "cocoa-utils"
 version = "0.1.0"
 dependencies = [
  "cocoa",
- "cocoa-utils-procmacro",
+ "cocoa-utils-procmacro 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "core-foundation",
  "core-graphics",
  "crossbeam",
@@ -74,6 +74,21 @@ dependencies = [
 [[package]]
 name = "cocoa-utils-procmacro"
 version = "0.1.0"
+dependencies = [
+ "cocoa",
+ "lazy_static",
+ "libc",
+ "objc",
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "cocoa-utils-procmacro"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1e6ca71352bad1698b597c221f6e1c38273f41407035f80915f67a7194415cda"
 dependencies = [
  "cocoa",
  "lazy_static",
